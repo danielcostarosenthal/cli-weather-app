@@ -1,5 +1,5 @@
-import { geocode } from './utils/geocode.mjs'
-import { forecast } from './utils/forecast.mjs'
+import { geocode } from './controllers/geocodeController.mjs'
+import { forecast } from './controllers/forecastController.mjs'
 
 const address = process.argv[2]
 

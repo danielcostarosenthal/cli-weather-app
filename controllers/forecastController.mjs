@@ -1,5 +1,4 @@
 import request from 'request'
-import { geocode } from './geocode.mjs'
 import dotenv from 'dotenv'
 dotenv.config()
 
